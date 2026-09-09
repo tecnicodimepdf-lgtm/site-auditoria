@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoria Kairos | Inteligência em Compliance Trabalhista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .bg-kairos-dark { background-color: #0f172a; }
+        .text-accent { color: #fb923c; } 
+        .bg-accent { background-color: #f97316; }
+        .bg-accent:hover { background-color: #ea580c; }
+        .glass-card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navegação -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="flex items-center gap-2 cursor-pointer">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-200">
+                    <i class="fa-solid fa-magnifying-glass-chart text-white text-xs"></i>
+                </div>
+                <span class="text-xl font-extrabold tracking-tight text-slate-800">AUDITORIA <span class="text-blue-600">KAIROS</span></span>
+            </a>
+            <div class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <a href="#funcionalidades" class="hover:text-blue-600 transition">Funcionalidades</a>
+                <a href="#riscos" class="hover:text-blue-600 transition">Riscos Detectados</a>
+            </div>
+            <div class="relative group">
+                <a href="#" class="bg-accent text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-lg shadow-orange-200 transition-all hover:scale-105 inline-block">Solicitar Demo</a>
+                <div class="absolute right-0 mt-1 w-56 bg-white rounded-xl shadow-2xl border border-slate-100 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                    <a href="mailto:tecnicodimepdf@gmail.com?subject=Agendamento%20de%20Demonstra%C3%A7%C3%A3o&body=Ol%C3%A1%2C%20vi%20em%20seu%20site%20o%20recurso%20de%20auditoria%20de%20jornada%20Kairos%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o." class="flex items-center gap-3 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition">
+                        <i class="fa-solid fa-envelope text-blue-600 w-4"></i> E-mail
+                    </a>
+                    <a href="https://wa.me/5561981560952?text=Ol%C3%A1%2C%20vi%20em%20seu%20site%20o%20recurso%20de%20auditoria%20de%20jornada%20Kairos%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o." target="_blank" rel="noopener" class="flex items-center gap-3 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition">
+                        <i class="fa-brands fa-whatsapp text-green-600 w-4"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-kairos-dark overflow-hidden">
+        <!-- Elementos Decorativos de Fundo -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+        <div class="absolute top-20 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px]"></div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                
+                <!-- Conteúdo Esquerda -->
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <div class="inline-block px-4 py-1.5 mb-6 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest">
+                        <i class="fa-solid fa-shield-check mr-2"></i> Inteligência Artificial em Compliance
+                    </div>
+                    <h1 class="text-4xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+                        Sua Auditoria de Ponto em <span class="text-blue-500">Tempo Real.</span>
+                    </h1>
+                    <p class="text-lg text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
+                        Identifique desvios operacionais, riscos trabalhistas e passivos ocultos antes que se tornem problemas jurídicos. Tudo integrado via API ao Dimep Kairos.
+                    </p>
+                    <div class="flex justify-center lg:justify-start">
+                        <div class="relative group inline-block">
+                            <button class="bg-accent text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-orange-900/20 hover:scale-105 transition-all">
+                                Começar Agora
+                            </button>
+                            <div class="absolute left-0 mt-1 w-64 bg-white rounded-xl shadow-2xl border border-slate-100 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                                <a href="mailto:tecnicodimepdf@gmail.com?subject=Agendamento%20de%20Demonstra%C3%A7%C3%A3o&body=Ol%C3%A1%2C%20vi%20em%20seu%20site%20o%20recurso%20de%20auditoria%20de%20jornada%20Kairos%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o." class="flex items-center gap-3 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition">
+                                    <i class="fa-solid fa-envelope text-blue-600 w-4"></i> E-mail
+                                </a>
+                                <a href="https://wa.me/5561981560952?text=Ol%C3%A1%2C%20vi%20em%20seu%20site%20o%20recurso%20de%20auditoria%20de%20jornada%20Kairos%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o." target="_blank" rel="noopener" class="flex items-center gap-3 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition">
+                                    <i class="fa-brands fa-whatsapp text-green-600 w-4"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo em Loop Direita (Moldura de Browser) -->
+                <div class="lg:w-1/2 w-full">
+                    <div class="relative group">
+                        <!-- Glow Effect -->
+                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                        
+                        <div class="relative bg-slate-900 rounded-2xl shadow-2xl overflow-hidden border border-white/10">
+                            <!-- Barra de Navegador -->
+                            <div class="bg-slate-800/80 px-4 py-3 flex items-center gap-2 border-b border-white/5">
+                                <div class="flex gap-1.5">
+                                    <div class="w-3 h-3 bg-red-500/80 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-yellow-500/80 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-green-500/80 rounded-full"></div>
+                                </div>
+                                <div class="mx-auto flex items-center gap-2 bg-slate-900/50 px-6 py-1 rounded text-[10px] text-slate-500 border border-white/5">
+                                    <i class="fa-solid fa-lock text-[8px]"></i> app.auditoriakairos.com.br
+                                </div>
+                            </div>
+                            
+                            <!-- O Vídeo Capturado -->
+                            <div class="aspect-video relative">
+                                <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+                                    <source src="demo-kairos.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos.
+                                </video>
+                                <!-- Overlay sutil -->
+                                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent pointer-events-none"></div>
+                            </div>
+                        </div>
+
+                        <!-- Card Flutuante de API -->
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-2xl border border-slate-100 hidden md:flex items-center gap-4 animate-bounce">
+                            <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                                <i class="fa-solid fa-bolt text-green-600"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] uppercase font-bold text-slate-400">Status da Conexão</p>
+                                <p class="text-sm font-bold text-slate-800">API Kairos Ativa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Funcionalidades -->
+    <section id="funcionalidades" class="py-24 bg-slate-50 scroll-mt-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-slate-900 mb-4">Funcionalidades</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">Tudo que você precisa para auditar a jornada de trabalho direto da sua base Kairos.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Item 1 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Conexão com a Base Kairos</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Conecta diretamente à base de dados do sistema Dimep Kairos para leitura em tempo real.</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Últimos 30 Dias</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Busca automática dos últimos 30 dias de apontamento para análise contínua.</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-sitemap"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Filtro por Estruturas</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Filtre a auditoria pelas estruturas cadastradas no Kairos (empresas, filiais, setores).</p>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-user-magnifying-glass"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Filtro por Pessoa</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Consulte e audite a jornada de um colaborador específico de forma individual.</p>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-file-export"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Relatórios Exportáveis</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Exporte relatórios completos em XML e PDF para uso interno ou fiscalizações.</p>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Multi Empresa e Multi Usuário</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Gerencie diversas empresas e usuários simultaneamente, facilitando a auditoria em escala.</p>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-100 hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-3">Controle de Acesso por Perfil</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Defina permissões de acesso à interface conforme o perfil de cada usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Riscos (Baseada no PDF) -->
+    <section id="riscos" class="py-24 bg-white scroll-mt-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-slate-900 mb-4">Eventos Monitorados</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">Nossa inteligência cruza dados em tempo real para identificar automaticamente violações da CLT.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-red-500">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-clock-history"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Jornadas Excessivas</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Identificação imediata de jornadas acima de 10h diárias ou horas extras não autorizadas conforme Art. 59 CLT.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-orange-500">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Intrajornada Insuficiente</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Alertas automáticos para intervalos menores que o obrigatório por lei (Art. 71 CLT).</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-blue-500">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-bed"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Interjornada < 11h</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Monitoramento do descanso mínimo obrigatório de 11 horas entre duas jornadas (Art. 66 CLT).</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-red-500">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-calendar-circle-exclamation"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Trabalho > 6 Dias</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Controle rigoroso de DSR. Evite que funcionários ultrapassem o limite de 6 dias trabalhados consecutivos.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-orange-500">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Domingos Consecutivos</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Garantia do descanso quinzenal aos domingos para funcionárias, conforme Art. 386 da CLT.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all border-b-4 border-b-green-500">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-6 text-xl shadow-sm">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Conformidade Total</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Relatórios prontos para exportação em PDF e Excel para apresentar em fiscalizações ou auditorias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <footer class="bg-slate-900 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold mb-4">Pronto para blindar seu Departamento Pessoal?</h2>
+            <p class="text-slate-400 mb-10 max-w-lg mx-auto">Integre sua base Dimep Kairos hoje mesmo e tenha o controle total da sua conformidade trabalhista.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-accent px-10 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-all">Falar com um Especialista</button>
+            </div>
+            <div class="mt-20 pt-8 border-t border-white/5 text-slate-500 text-sm">
+                &copy; 2024 Auditoria Kairos. Desenvolvido para Gestão de Alta Performance.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
